@@ -133,3 +133,15 @@ img{height:auto}
   .hero-logo-wrap{padding:0}
   .hero-logo{max-height:380px}
 }
+
+/* Soft-white surface behind the family emblem */
+.hero-logo-wrap{
+  padding:clamp(10px,2vw,18px);
+  background:#f8fbf8;
+  border:1px solid #edf3ee;
+  border-radius:16px;
+  box-shadow:0 8px 24px rgba(43,104,67,.035);
+}
+@media(max-width:760px){
+  .hero-logo-wrap{padding:10px;border-radius:12px}
+}
