@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-labelledby="title desc"><title id="title">Sampurnatavam Garbhsanskar</title><desc id="desc">Sampurnatavam wordmark with the Sanskrit name and Garbh Sanskar Program subtitle.</desc><rect width="900" height="230" fill="#ffffff"/><g fill="#65502e" text-anchor="middle"><text x="450" y="94" font-family="Noto Serif Devanagari,serif" font-size="74" font-weight="600">सम्पूर्णत्वम्</text><text x="450" y="145" font-family="Georgia,serif" font-size="34" letter-spacing="9">S A M P U R N A T A V A M</text></g><g fill="#637d4c" text-anchor="middle"><path d="M115 184h145m480 0h145" stroke="#8ba16e" stroke-width="2"/><text x="450" y="194" font-family="Georgia,serif" font-size="26" letter-spacing="5">GARBH SANSKAR PROGRAM</text></g><g fill="#78915e"><path d="M260 184c-15-18-24-17-31-13 5 11 15 16 31 13zm380 0c15-18 24-17 31-13-5 11-15 16-31 13z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Sampurnatavam family emblem</title><desc id="desc">A mother and father lovingly cradle their newborn baby inside a circular lotus-inspired emblem.</desc>
+<defs>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7a84f"/><stop offset="1" stop-color="#a97931"/></linearGradient>
+ <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9cb78a"/><stop offset="1" stop-color="#587b56"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4c99f"/><stop offset="1" stop-color="#d99b70"/></linearGradient>
+</defs>
+<circle cx="450" cy="265" r="222" fill="#fffdf7" stroke="url(#gold)" stroke-width="9"/>
+<circle cx="450" cy="265" r="203" fill="none" stroke="#d9bd83" stroke-width="2" stroke-dasharray="4 10"/>
+<!-- lotus crown -->
+<g fill="#e8d4a6" stroke="url(#gold)" stroke-width="4"><path d="M450 34 Q407 77 450 119 Q493 77 450 34Z"/><path d="M450 51 Q373 49 389 112 Q427 119 450 51Z"/><path d="M450 51 Q527 49 511 112 Q473 119 450 51Z"/><path d="M450 75 Q420 105 450 139 Q480 105 450 75Z"/></g>
+<text x="450" y="160" text-anchor="middle" font-size="46" fill="#bd8a3c">ॐ</text>
+<!-- mother hair and head -->
+<path d="M218 283 Q198 190 270 150 Q330 119 385 170 Q419 204 402 284 Q385 356 325 371 Q251 359 218 283Z" fill="#4a3022"/>
+<ellipse cx="335" cy="242" rx="62" ry="78" fill="url(#skin)" transform="rotate(-18 335 242)"/>
+<path d="M278 202 Q315 126 382 174 Q411 206 392 256 Q377 222 350 210 Q321 235 279 239Z" fill="#38251d"/>
+<!-- father hair and head -->
+<path d="M510 178 Q561 111 634 155 Q687 190 669 277 Q648 334 594 347 Q543 321 526 271Z" fill="#35251d"/>
+<ellipse cx="574" cy="235" rx="63" ry="78" fill="url(#skin)" transform="rotate(18 574 235)"/>
+<path d="M515 204 Q540 129 610 147 Q662 154 672 213 Q628 183 584 192 Q552 208 515 204Z" fill="#35251d"/>
+<!-- shoulders and robes -->
+<path d="M212 493 Q211 375 294 333 Q334 316 377 341 Q411 372 424 493Z" fill="#d9a17d"/>
+<path d="M383 493 Q389 372 471 338 Q535 309 602 351 Q671 399 682 493Z" fill="#e9dfc9"/>
+<path d="M275 359 Q329 326 377 350 Q403 375 421 493 L324 493 Q299 441 275 359Z" fill="#e8b79a"/>
+<path d="M524 350 Q580 326 623 370 L585 493 L472 493 Q483 390 524 350Z" fill="#d9d0ba"/>
+<!-- infant nestled -->
+<ellipse cx="449" cy="393" rx="57" ry="66" fill="#f1c89e"/>
+<circle cx="450" cy="345" r="36" fill="url(#skin)"/>
+<path d="M416 341 Q424 304 458 310 Q481 316 485 345 Q461 329 442 336 Q427 346 416 341Z" fill="#5b3927"/>
+<path d="M411 388 Q446 365 483 390 Q499 411 485 447 Q450 467 416 445 Q398 420 411 388Z" fill="#f3e6d2"/>
+<!-- cradle arms -->
+<path d="M289 438 Q352 482 426 464 Q450 458 469 467 Q538 491 612 438" fill="none" stroke="#d99e79" stroke-width="27" stroke-linecap="round"/>
+<path d="M303 451 Q371 505 450 485 Q528 505 598 451" fill="none" stroke="#e8c4a3" stroke-width="18" stroke-linecap="round"/>
+<!-- subtle leaves -->
+<g fill="url(#sage)"><path d="M130 390 Q87 337 112 301 Q155 321 130 390Z"/><path d="M142 353 Q139 293 181 277 Q194 325 142 353Z"/><path d="M770 390 Q813 337 788 301 Q745 321 770 390Z"/><path d="M758 353 Q761 293 719 277 Q706 325 758 353Z"/></g>
+<path d="M450 510 Q418 550 450 574 Q482 550 450 510Z" fill="#78966c"/>
+</svg>
