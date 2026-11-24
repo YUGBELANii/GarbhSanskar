@@ -43,3 +43,9 @@ body{background:#fff;color:var(--ink)}
  .hero-logo-wrap{min-height:180px;padding:12px}
  .hero-logo{max-height:220px}
 }
+
+/* Use the detailed family artwork from the original brand reference */
+.brand-mark{width:58px;height:52px;object-fit:contain;object-position:center}
+.hero-logo-wrap{min-height:300px;padding:12px;background:#fff;border:1px solid #e3eee6}
+.hero-logo{width:100%;height:auto;max-height:320px;object-fit:contain;object-position:center}
+@media(max-width:760px){.brand-mark{width:48px;height:44px}.hero-logo-wrap{min-height:190px;padding:8px}.hero-logo{max-height:230px}}
