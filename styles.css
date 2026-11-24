@@ -27,3 +27,19 @@ body{background:#fff;color:var(--ink)}
 .form input,.form textarea,.form select{background:#fff;border-color:#d6e5da;color:#263b31}
 .site-footer{background:#244d37;color:#f6fff8}.site-footer p,.site-footer a{color:#dcebe0}.footer-bottom{border-color:#47715a;color:#c5dccb}.footer-brand{color:#fff}
 @media(max-width:760px){.hero-logo-wrap{min-height:150px;padding:14px;border-radius:10px}.hero-logo{max-height:150px}.nav-links{scrollbar-color:#a8cbb0 #f3f8f4}.button,.nav-cta{min-height:46px}.card{padding:20px}}
+
+/* Family emblem lockup: parents and newborn stay visible across every page */
+.brand-lockup{display:flex;align-items:center;gap:10px;max-width:320px;flex:0 0 auto}
+.brand-mark{width:54px;height:54px;object-fit:contain;flex:0 0 auto}
+.brand-copy{display:block;line-height:1.2;font-size:1.02rem}
+.brand-copy small{display:block;margin-top:5px;font-size:.59rem;letter-spacing:.11em;line-height:1.35}
+.hero-logo-wrap{background:#fff;border:1px solid #e3eee6;border-radius:18px;padding:18px;min-height:300px}
+.hero-logo{width:100%;height:auto;max-height:285px;object-fit:contain}
+@media(max-width:760px){
+ .brand-lockup{gap:8px;max-width:100%}
+ .brand-mark{width:46px;height:46px}
+ .brand-copy{font-size:.94rem}
+ .brand-copy small{font-size:.55rem}
+ .hero-logo-wrap{min-height:180px;padding:12px}
+ .hero-logo{max-height:220px}
+}
