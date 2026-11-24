@@ -102,3 +102,11 @@ img{height:auto}
  .nav-cta{margin-left:auto}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* High-resolution family emblem: preserve its full artwork without cropping */
+.hero-logo-wrap{display:flex;align-items:center;justify-content:center;min-height:0;padding:clamp(10px,2vw,20px);overflow:hidden}
+.hero-logo{display:block;width:100%;max-width:100%;height:auto;max-height:460px;object-fit:contain;object-position:center}
+@media(max-width:760px){
+ .hero-logo-wrap{width:100%;min-height:0;padding:8px}
+ .hero-logo{width:100%;height:auto;max-height:360px;object-fit:contain}
+}
